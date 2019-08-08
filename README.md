@@ -1,2 +1,2 @@
-# kc-moharana.github.io
-Personal Portfolio
+# KANHU CHARAN MOHARANA
+**Computational Biologist**|**Ph.D**
