@@ -1,19 +1,29 @@
 /** Basic style sheet **/
+/** type=diverging&scheme=RdYlBu&n=5 
+#d7191c
+#fdae61
+#ffffbf
+#abd9e9
+#2c7bb6
+**/
 
 *.*{
  margin:0 0;
  padding: 0 0;
 }
-.html{
+html{
  width: 100%;
+ color: #404040;
 }
-.body{
+body{
  width: 100%;
+ margin: 0 auto;
 }
-.main{
+
+#main{
  width: 90%;
  margin: 0 auto;
- background-color: yellow;
+ background-color: #ffffbf;
 }
 
 
