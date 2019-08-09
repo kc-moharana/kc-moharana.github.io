@@ -7,23 +7,85 @@
 #2c7bb6
 **/
 
-*.*{
- margin:0 0;
- padding: 0 0;
-}
+/** Credits 
+<div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"             title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"             title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+<div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"             title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"             title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+
+<div>Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/"             title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"             title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+<div>Icons made by <a href="https://www.flaticon.com/authors/simpleicon" title="SimpleIcon">SimpleIcon</a> from <a href="https://www.flaticon.com/"             title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"             title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+
+**/
 html{
- width: 100%;
- color: #404040;
+ height:100%;
+}
+*{
+  -moz-box-sizing: border-box; 
+  -webkit-box-sizing: border-box; 
+  box-sizing: border-box;
+  margin: 0px 0px;
 }
 body{
  width: 100%;
- margin: 0 auto;
+ /*border-top: solid 0.1em red;*/
+ height:100%; 
+ font-family: 'Red Hat Text', sans-serif;
 }
 
 #main{
- width: 90%;
- margin: 0 auto;
- background-color: #ffffbf;
+ display:block;
+ width: 100%;
+ min-height: 100%;
+ padding: 0;
 }
 
-
+#navigation{
+ display:block;
+ width: 100%;
+ margin: 0;
+ min-height: 20%;
+ padding: 10px 20px;
+ border-bottom: solid 0.15em black;
+}
+#navigation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;  
+}
+#navigation ul li {
+  float: left;
+  margin-right: 1%;
+}
+#navigation ul li a {
+  display: block;  
+  text-align: center;
+  padding: 5px 5px;
+  text-decoration: none;
+  color: #636363;
+}
+/* Change the link color to #111 (black) on hover */
+#navigation ul li a:hover {
+  border-bottom: solid 1px #636363;
+}
+/* ------------------ */
+#left_panel{
+ display:inline-block;
+ width: 25%;
+ padding: 40px 30px; 
+ /* border: solid 0.1em black; */
+}
+#right_panel{
+ display:inline-block;
+ width: 75%;
+ float: right; 
+ padding: 40px 30px; 
+ /* border: solid 0.1em black; */
+}
+.side_item{
+ padding-left: 10px;  
+ font-size: 14px; 
+ vertical-align: top;
+ text-decoration: none;
+ color: #636363;
+ font-weight:bold;
+}
